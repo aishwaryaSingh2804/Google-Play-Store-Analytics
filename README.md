@@ -1,7 +1,16 @@
 # Google Play Store Product Analytics: Understanding User Satisfaction, Market Opportunities, and Monetization Strategies
 
-An end-to-end data analysis project exploring the Google Play Store ecosystem using Python. This project focuses on data cleaning, exploratory data analysis (EDA), and sentiment analysis by combining app metadata with user reviews to uncover insights into app performance, user satisfaction, and market opportunities.
+This project is a Product Analytics case study on the Google Play Store. The objective was to understand what drives app performance and use historical Play Store data to generate insights that could help a product team or a new app developer make better business decisions.
 
+I worked with two datasets—one containing app-level information such as category, installs, ratings and pricing, and another containing user reviews with sentiment information. After cleaning and preparing both datasets, I analyzed them to answer three main business questions:
+
+First, if someone wants to launch a new app, which categories offer high demand with relatively lower competition?
+
+Second, what is the trade-off between offering a free app versus a paid app?
+
+Third, are star ratings alone enough to measure user satisfaction, or do user reviews and sentiment provide additional insights?
+
+Based on these analyses, I generated recommendations around market selection, monetization strategy, and user satisfaction by combining quantitative metrics like installs and ratings with qualitative insights from user reviews.
 ---
 
 ## Project Objectives
@@ -121,13 +130,7 @@ After merging the Apps and Reviews datasets, the following analyses were perform
 
 ## Key Business Insights
 
-- Free apps dominate the Google Play Store ecosystem.
-- The Family category has the largest number of published applications.
-- Higher ratings generally correspond to more positive user sentiment.
-- App popularity is influenced by factors beyond ratings alone.
-- Some categories demonstrate high user demand despite lower competition.
-- User reviews provide valuable insights beyond star ratings.
-- Combining app metadata with sentiment analysis provides a more complete understanding of user satisfaction.
+The analysis showed that market demand and competition vary significantly across categories, so developers should evaluate both before entering a market. I also found that free apps generally achieve much higher adoption, while paid apps tend to receive slightly better ratings, highlighting a trade-off between growth and monetization. Finally, by combining ratings with review sentiment, I showed that star ratings alone don't fully capture user experience, and textual feedback provides valuable context for understanding user satisfaction.
 
 ---
 
