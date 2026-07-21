@@ -1,4 +1,4 @@
-# Google Play Store App Analysis
+# Google Play Store Product Analytics: Understanding User Satisfaction, Market Opportunities, and Monetization Strategies
 
 An end-to-end data analysis project exploring the Google Play Store ecosystem using Python. This project focuses on data cleaning, exploratory data analysis (EDA), and sentiment analysis by combining app metadata with user reviews to uncover insights into app performance, user satisfaction, and market opportunities.
 
