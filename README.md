@@ -95,7 +95,6 @@ The following preprocessing steps were performed:
 - Converted data types
 - Cleaned the `Installs` column by removing commas and '+' symbols
 - Converted `Price` to numeric values
-- Standardized app sizes into MB
 - Parsed date columns
 - Removed inconsistent and invalid records
 - Prepared datasets for analysis and merging
@@ -109,10 +108,6 @@ The following preprocessing steps were performed:
 The following analyses were performed:
 
 - Distribution of app ratings
-- Category-wise app distribution
-- Rating analysis by category
-- Reviews vs Installs
-- Rating vs Installs
 - Free vs Paid apps
 - Market competition vs demand across categories
 
@@ -121,9 +116,6 @@ The following analyses were performed:
 After merging the Apps and Reviews datasets, the following analyses were performed:
 
 - Rating vs Sentiment Polarity
-- Category-wise Average Sentiment
-- Free vs Paid Sentiment Comparison
-- Sentiment Distribution across Categories
 - Most Loved and Most Criticized Apps
 
 ---
